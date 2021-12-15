@@ -100,6 +100,18 @@ nav.scrolling .nav-link:hover {
     fill:#ffffff;
     transition: all 1s;
 }
+.main-nav__sub-menu {
+    width:100%;
+
+}
+.main-nav__sub-menu li{
+    padding:10px 15px;
+
+}
+.main-nav__sub-menu li:hover{
+   background-color:rgba(0,0,0,.2);
+
+}
 
 @media (min-width: 769px) {
     #toggle-nav {
@@ -254,7 +266,7 @@ transition: all 0.5s;
 }
 .main-nav.scrolling .main-nav__menu-item--dropdown .main-nav__sub-menu{
     background-color: #ffffff;
-    width:auto;
+    width:150px;
 }
 
 
@@ -308,7 +320,7 @@ transition: all 0.5s;
 }
 
 .main-nav__menu-item--dropdown .main-nav__sub-menu-item {
-    padding: 10px 15px;
+    padding: 10px 0 10px 20px;
 }
 
 .main-nav__menu-item--dropdown .main-nav__sub-menu-item-link {
